@@ -25,3 +25,7 @@ label {
 button {
   margin-left: 15px;
 }
+
+#user-age {
+  width: 100px;
+}
