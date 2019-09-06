@@ -22,7 +22,7 @@ $(document).ready(function() {
     $('#mercury-remaining').text(newUser.mercuryLifeExpectancy() + " ");
     $('#venus-remaining').text(newUser.venusLifeExpectancy() + " ");
     $('#mars-remaining').text(newUser.marsLifeExpectancy() + " ");
-    $('#jupiter-remaining').text(newUser.mercuryLifeExpectancy() + " ");
+    $('#jupiter-remaining').text(newUser.jupiterLifeExpectancy() + " ");
     $('.remaining-life').show();
 
   });

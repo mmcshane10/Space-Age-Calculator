@@ -9,7 +9,9 @@
   <div class="container">
     <h1>Super Galactic Age Calculator</h1>
 
-    <p>A solar year lasts 365 days on planet Earth. However, the length of a solar year varies from planet to planet. For instance, a solar year on Mercury lasts 88 days. Enter your information below to find out what your age would be on different planets in our system!</p>
+    <div class="intro">
+    <p>A solar year lasts 365 days on planet Earth. However, the length of a solar year varies from planet to planet. For instance, a solar year on Mercury lasts 88 days. Enter your information below to find out what your age would be on different planets in our solar system!</p>
+  </div>
 
     <form id="galaxy" class="form-inline" action="index.html" method="post">
       <div class="form-group">
@@ -20,7 +22,7 @@
           <option value="Female">Female</option>
         </select>
         <label for="age">and I am </label>
-        <input type="number" class="form-control" id="user-age" min="1" max="100" required>
+        <input type="number" class="form-control" id="user-age" min="1" max="110" required>
         <label for="age">Earth years old.</label>
       </div>
       <button type ="submit" class="btn btn-primary">Find My Galactic Ages!</button>
@@ -34,10 +36,10 @@
     </div>
 
     <div class="remaining-life">
-      <p>Based on your age and sex, you would have <span id="mercury-remaining"></span> years left on Mercury</p>
-      <p>Based on your age and sex, you would have <span id="venus-remaining"></span> years left on Venus</p>
-      <p>Based on your age and sex, you would have <span id="mars-remaining"></span> years left on mars</p>
-      <p>Based on your age and sex, you would have <span id="jupiter-remaining"></span> years left on Jupiter</p>
+      <p>Based on your data, on average, you would have <span id="mercury-remaining"></span> years left to live on Mercury.</p>
+      <p>Based on your data, on average, you would have <span id="venus-remaining"></span> years left to live on Venus.</p>
+      <p>Based on your data, on average, you would have <span id="mars-remaining"></span> years left to live on Mars.</p>
+      <p>Based on your data, on average, you would have <span id="jupiter-remaining"></span> years left to live on Jupiter.</p>
 
     </div>
 
