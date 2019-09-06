@@ -1,5 +1,5 @@
 body {
-  background-color: #262626;
+  background-color: #333333;
 }
 
 .container {
@@ -28,4 +28,13 @@ button {
 
 #user-age {
   width: 100px;
+}
+
+.planet-ages {
+  margin-top: 50px;
+  display: none;
+}
+
+p {
+  color: white;
 }

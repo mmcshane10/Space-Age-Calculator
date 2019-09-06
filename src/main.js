@@ -12,5 +12,11 @@ $(document).ready(function() {
 
     let newUser = new SpaceCalculator(userSex, userAge);
     console.log(newUser);
+
+    $('#mercury-age').text(newUser.mercuryCalculator() + " ");
+    $('#venus-age').text(newUser.venusCalculator() + " ");
+    $('#mars-age').text(newUser.marsCalculator() + " ");
+    $('#jupiter-age').text(newUser.jupiterCalculator() + " ");
+    $('.planet-ages').show();
   });
 });
