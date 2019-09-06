@@ -23,19 +23,13 @@ $(document).ready(function() {
     $('#jupiter-age').text(newUser.jupiterCalculator() + " ");
     $('.planet-ages').show();
 
-    // $('#mercury-remaining').text(newUser.mercuryLifeExpectancy() + " ");
-    // $('#venus-remaining').text(newUser.venusLifeExpectancy() + " ");
-    // $('#mars-remaining').text(newUser.marsLifeExpectancy() + " ");
-    // $('#jupiter-remaining').text(newUser.jupiterLifeExpectancy() + " ");
-    // $('.remaining-life').show();
-
     if (newUser.sex === "Male" && newUser.age < maleAvgLife) {
       $('#mercury-remaining').text(newUser.mercuryLifeExpectancy() + " ");
       $('#venus-remaining').text(newUser.venusLifeExpectancy() + " ");
       $('#mars-remaining').text(newUser.marsLifeExpectancy() + " ");
       $('#jupiter-remaining').text(newUser.jupiterLifeExpectancy() + " ");
       $('.remaining-life').show();
-    } else if (newUser.sex === "Female" && newUser.age < maleAvgLife) {
+    } else if (newUser.sex === "Female" && newUser.age < femaleAvgLife) {
       $('#mercury-remaining').text(newUser.mercuryLifeExpectancy() + " ");
       $('#venus-remaining').text(newUser.venusLifeExpectancy() + " ");
       $('#mars-remaining').text(newUser.marsLifeExpectancy() + " ");
