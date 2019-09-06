@@ -38,7 +38,7 @@ button {
   width: 100px;
 }
 
-.planet-ages, .remaining-life {
+.planet-ages, .remaining-life, .extra-life {
   margin-top: 50px;
   margin-left: 15px;
   display: none;
