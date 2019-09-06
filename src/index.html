@@ -1,12 +1,26 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <link href="https://fonts.googleapis.com/css?family=Space+Mono:700&display=swap" rel="stylesheet">
-    <title>Super Galactic Age Calculator</title>
-  </head>
-  <body>
-    <div class="container">
-      <h1>Super Galactic Age Calculator</h1>
-    </div>
-  </body>
+<head>
+  <link href="https://fonts.googleapis.com/css?family=Space+Mono:700&display=swap" rel="stylesheet">
+  <title>Super Galactic Age Calculator</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Super Galactic Age Calculator</h1>
+    <form class="form-inline" action="index.html" method="post">
+      <div class="form-group">
+        <label for="sex">I am a </label>
+        <select class="form-control" id="user-sex" required>
+          <option value="" selected disabled>Choose here</option>
+          <option value="Male">Male</option>
+          <option value="Female">Female</option>
+        </select>
+        <label for="age">and I am </label>
+        <input type="number" class="form-control" id="user-age" min="1" max="100" required>
+        <label for="age">Earth years old.</label>
+      </div>
+      <button type ="submit" class="btn btn-primary">Find My Galactic Ages!</button>
+    </form>
+  </div>
+</body>
 </html>
