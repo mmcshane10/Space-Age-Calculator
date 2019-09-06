@@ -16,6 +16,14 @@ The application takes in a user's sex and age and then determines their age on o
 | user's inputted earth age is converted to their venus 'age' | 30 | 48 |
 | user's inputted earth age is converted to their mars 'age' | 30 | 16 |
 | user's inputted earth age is converted to their jupiter 'age' | 30 | 3 |
+| user's remaining mercury years are shown after inputting their age | 30 | 192 |
+| user's mercury years past life expectancy are displayed | 99 | 75 |
+| user's remaining venus years are shown after inputting their age | 30 | 75 |
+| user's venus years past life expectancy are displayed | 99 | 29 |
+| user's remaining mars years are shown after inputting their age | 30 | 24 |
+| user's mars years past life expectancy are displayed | 99 | 10 |
+| user's remaining jupiter years are shown after inputting their age | 30 | 4 |
+| user's jupiter years past life expectancy are displayed | 99 | 1 |
 
 _{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this app depends on?}_
 
