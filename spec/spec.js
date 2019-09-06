@@ -2,6 +2,8 @@ import { SpaceCalculator } from './../src/backend.js';
 
 describe('Space Age Calculator', function() {
 
+//AGE CALCULATOR TESTS ----------------------------------
+
   it('should calculate the users age on Mercury', function() {
     let testUser = new SpaceCalculator("Male", 30)
     expect(testUser.mercuryCalculator()).toEqual('125');
@@ -21,6 +23,8 @@ describe('Space Age Calculator', function() {
     let testUser = new SpaceCalculator("Male", 30)
     expect(testUser.jupiterCalculator()).toEqual('3');
   });
+
+// LIFE EXPECTANCY TESTS -------------------------------
 
   it('should calculate the users remaining years on mercury if their age is less than the life expectancy', function() {
     let testUser = new SpaceCalculator("Male", 30)

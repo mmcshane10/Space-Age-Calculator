@@ -4,6 +4,8 @@ export class SpaceCalculator {
     this.age = age;
   }
 
+// MERCURY PROTOTYPES ---------------------------
+
   mercuryCalculator() {
     let mercuryAge = (this.age / 0.24).toFixed();
     return mercuryAge
@@ -33,6 +35,8 @@ export class SpaceCalculator {
         }
       }
   }
+
+// VENUS PROTOTYPES ----------------------------
 
   venusCalculator() {
     let venusAge = (this.age / 0.62).toFixed();
@@ -64,6 +68,8 @@ export class SpaceCalculator {
     }
   }
 
+// MARS PROTOTYPES ----------------------------
+
   marsCalculator() {
     let marsAge = (this.age / 1.88).toFixed();
     return marsAge
@@ -93,6 +99,8 @@ export class SpaceCalculator {
       }
     }
   }
+
+// JUPITER PROTOTYPES ----------------------------
 
   jupiterCalculator() {
     let jupiterAge = (this.age / 11.68).toFixed();
