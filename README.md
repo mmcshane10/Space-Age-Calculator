@@ -37,7 +37,7 @@ If there are any issues with the application, please contact mmcshane10@gmail.co
 
 ## Technologies Used
 
-_{Tell me about the languages and tools you used to create this app. Assume that I know you probably used HTML and CSS. If you did something really cool using only HTML, point that out.}_
+Webpack is used to lint, bundle, and process code. Backend logic is tested with Jasmine.
 
 ### License
 

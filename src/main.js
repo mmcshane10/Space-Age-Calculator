@@ -18,5 +18,12 @@ $(document).ready(function() {
     $('#mars-age').text(newUser.marsCalculator() + " ");
     $('#jupiter-age').text(newUser.jupiterCalculator() + " ");
     $('.planet-ages').show();
+
+    $('#mercury-remaining').text(newUser.mercuryLifeExpectancy() + " ");
+    $('#venus-remaining').text(newUser.venusLifeExpectancy() + " ");
+    $('#mars-remaining').text(newUser.marsLifeExpectancy() + " ");
+    $('#jupiter-remaining').text(newUser.mercuryLifeExpectancy() + " ");
+    $('.remaining-life').show();
+
   });
 });

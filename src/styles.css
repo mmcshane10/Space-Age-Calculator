@@ -15,6 +15,10 @@ h1 {
   margin-bottom: 60px;
 }
 
+form {
+  margin-top: 50px;
+}
+
 label {
   color: white;
   font-size: 20px;
@@ -30,7 +34,7 @@ button {
   width: 100px;
 }
 
-.planet-ages {
+.planet-ages, .remaining-life {
   margin-top: 50px;
   display: none;
 }
