@@ -4,23 +4,32 @@ describe('Space Age Calculator', function() {
 
   it('should calculate the users age on Mercury', function() {
     let testUser = new SpaceCalculator("Male", 30)
-    expect(testUser.mercuryCalculator()).toEqual(125);
+    expect(testUser.mercuryCalculator()).toEqual('125');
   });
 
   it('should calculate the users age on Venus', function() {
     let testUser = new SpaceCalculator("Male", 30)
-    expect(testUser.venusCalculator()).toEqual(48);
+    expect(testUser.venusCalculator()).toEqual('48');
   });
 
   it('should calculate the users age on Mars', function() {
     let testUser = new SpaceCalculator("Male", 30)
-    expect(testUser.marsCalculator()).toEqual(16);
+    expect(testUser.marsCalculator()).toEqual('16');
   });
 
   it('should calculate the users age on Jupiter', function() {
     let testUser = new SpaceCalculator("Male", 30)
-    expect(testUser.jupiterCalculator()).toEqual(3);
+    expect(testUser.jupiterCalculator()).toEqual('3');
   });
 
+  it('should calculate the users remaining years on a planet if their age is less than the life expectancy', function() {
+    let testUser = new SpaceCalculator("Male", 30)
+    expect(testUser.venusLifeExpectancy()).toEqual(75);
+  });
+
+  it('should calculate how far a use has outlived their life expectancy if their age is higher than the life expectancy', function() {
+    let testUser = new SpaceCalculator("Female", 99)
+    expect(testUser.venusLifeExpectancy()).toEqual(29);
+  });
 
 });
